@@ -1,6 +1,8 @@
 # Xerox Decryptor
 
-Here's a little tool that extracts hardcoded encryption keys from the Xerox WorkCentre firmware using Binary Ninja's API
+Here's a little tool that extracts hardcoded encryption keys from the Xerox WorkCentre firmware using Binary Ninja's API.
+
+It will try and recursively find a binary in the firmware; this is probably not efficient and I cannot guarantee it will work all the time. Luckily the resources I used to write this up cover that entire process. 
 
 I want to automatically decrypt encrypted strings, but it's time consuming
 
